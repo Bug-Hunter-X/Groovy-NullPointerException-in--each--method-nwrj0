@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Groovy when using the `each` method to iterate over a list that may contain null values. The `each` method does not inherently handle null values, resulting in a `NullPointerException` when a null element is encountered.  The solution illustrates how to safely handle null values within the iteration.
